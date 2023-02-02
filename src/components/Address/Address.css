@@ -1,0 +1,15 @@
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+        margin: 0;
+}
+
+.address-container{
+    text-align: center;
+}
+
+.left-button-address{
+    margin-right: 50%;
+}
+

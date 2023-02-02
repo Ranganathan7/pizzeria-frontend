@@ -1,0 +1,42 @@
+.order-table-container{
+    width: 80%;
+    margin: auto;
+}
+
+.accordion-item-container{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.active {
+    background-color: orange;
+    margin-bottom: 0;
+}   
+
+.accordion-item-container:hover{
+    background-color: orange;
+}
+
+
+.panel{
+    padding: 0 18px;
+    width: 100%;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.active-panel{
+    display: block;
+}

@@ -1,0 +1,19 @@
+.user-container{
+    width: 40%;
+    margin: 0 auto 0 auto;
+    border-top: 80px solid white;
+}
+
+.user-cart-button:hover{
+    background-color: green;
+    border: white;
+}
+
+.card-header{
+    background-color: orange;
+}
+
+.user-container-background{
+    width: 100%;
+    height: 82vh;
+}

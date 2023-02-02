@@ -1,0 +1,11 @@
+const ActionTypes = {
+    SET_PIZZAS: "SET_PIZZAS",
+    SET_INGREDIENTS: "SET_INGREDIENTS",
+    SET_CONTENTS: "SET_CONTENTS",
+    SET_USER: "SET_USER",
+    UPDATE_CART: "UPDATE_CART",
+    UPDATE_ORDER: "UPDATE_ORDER",
+    SET_PIZZA: "SET_PIZZA"
+}
+
+export default ActionTypes

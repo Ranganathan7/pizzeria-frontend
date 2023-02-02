@@ -1,0 +1,26 @@
+.ingredients-container{
+    margin: 1% 5%;
+}
+
+.ingredients-table{
+    margin: 0 20%;
+}
+
+input[type="checkbox"]{
+    margin: 0 10% 0 5%;
+}
+
+.cost-text{
+    color: green;
+    font-size: 25px;
+}
+
+.build-button{
+    color: orange;
+    margin-left: 30%;
+}
+
+.build-button:hover{
+    color: white;
+}
+

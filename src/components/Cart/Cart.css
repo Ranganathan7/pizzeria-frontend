@@ -1,0 +1,24 @@
+.cart-container{
+    text-transform: capitalize;
+}
+
+.cart-table-container{
+    margin: 1% 1% 0 1%;
+}
+
+.user-name-text{
+    font-family: "Garamond", "Courier New", monospace;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 50%;
+}
+
+.add-more:hover{
+    background-color: orange;
+    border-color: white;
+}
+
+.checkout-button:hover{
+    background-color: orange;
+}

@@ -1,0 +1,17 @@
+.cart-text{
+    color: white;
+    margin: 0 1%;
+}
+
+.cart-text:hover{
+    color: black;
+}
+
+.right-edge-buttons{
+    width: 70%;
+    margin-left: auto;
+    text-align: right;
+    margin-right: 0;
+    padding: 0;
+    border: 0;
+}

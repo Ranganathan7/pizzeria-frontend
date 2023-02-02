@@ -1,0 +1,33 @@
+.pizza-box{
+    border: 1px solid;
+    box-shadow: 2px 4px;
+    margin: 1% 0;
+}
+
+.pizza-name{
+    text-align: center;
+}
+
+.pizza-description{
+    text-align: left;
+}
+
+.pizza-image{
+    text-align: center;
+}   
+
+.cart-button{
+    color: white;
+    margin: 10% 0;
+}
+
+.pizza-type{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.pizza-price{
+    margin-top: 80%;
+}
+
