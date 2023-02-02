@@ -20,6 +20,7 @@ import Address from "./components/Address/Address"
 import Summary from "./components/Summary/Summary"
 import Payment from "./components/Payment/Payment"
 import User from "./components/User/User"
+import { MobileApp } from "./components/MobileApp/MobileApp"
 
 function App() {
 
