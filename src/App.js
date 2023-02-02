@@ -25,8 +25,17 @@ function App() {
 
   const dispatch = useDispatch()
   const base_url = useSelector(state => state.base_url)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight)
+
+  function setWindowDimensions() {
+    setWindowWidth(window.innerWidth)
+    setWindowHeight(window.innerHeight)
+  }
 
   useEffect(()=>{
+    window.addEventListener('resize', setWindowDimensions)
+
     if(localStorage.loggedin==='true'){
         dispatch(set_user({name:localStorage.name, email:localStorage.email}))
         axios.post(base_url+'/cart', { email: localStorage.email})
@@ -41,10 +50,14 @@ function App() {
                 alert("Error connecting to server!")
             })
     }
+
+    return(() => {
+      window.addEventListener('resize', setWindowDimensions)
+    })
     // eslint-disable-next-line
 }, [])
 
-  return (
+  if(window.innerWidth > 1200 && window.innerHeight > 450) return (
     <>
       <BrowserRouter>
         <Navbar />
@@ -70,6 +83,10 @@ function App() {
       </BrowserRouter>
       <Footer />
     </>
+  )
+
+  else return (
+    <MobileApp />
   )
 }
 
