@@ -1,1 +1,1 @@
-export const endpoint = "https://pizzeria-backend.onrender.com"
+export const endpoint = "https://pizzeria-backend-65ww.onrender.com"
